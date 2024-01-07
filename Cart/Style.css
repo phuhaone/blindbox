@@ -1,0 +1,379 @@
+.bg-primary {
+  background-color: chocolate !important;
+}
+
+.dropdown-menu {
+  position: absolute;
+  border-radius: none;
+  display: none;
+  box-shadow: 2px 2px #0000001F;
+}
+
+.dropdown-item {
+  text-align: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card-body {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.card-body>button {
+  height: 39px;
+  width: 40px;
+  border-color: black;
+  border-radius: 0;
+}
+
+.card-body>button:hover {
+  height: 39px;
+  width: 40px;
+}
+
+.card-img-overlay {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.card-img-overlay>a {
+  padding: 10px 28px;
+  border: 1px solid white;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+}
+
+.card-img-overlay>a:hover {
+  padding: 10px 28px;
+  border: 1px solid white;
+  border-radius: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-nav>a {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.logo-header {
+  margin-top: 20px;
+}
+
+.nav-header {
+  display: flex;
+  position: absolute;
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.nav-header>nav>ul>li
+{
+  text-align: center;
+}
+
+.icon-header>ul
+{
+  margin-top: 20px;
+  display: flex;
+}
+
+.icon-header>ul>li {
+  list-style: none;
+  margin: auto 7px;
+  float: right;
+}
+
+.main-header {
+  margin-bottom: 0;
+}
+
+.main-banner {
+  margin-top: 0;
+  padding: 0;
+}
+
+.ciom {
+  position: absolute;
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.img-about-me>img {
+  width: 100%;
+}
+
+.card-body>a:hover {
+  background-color: #D9D9D9;
+  color: black;
+  border: 1px solid #c4c4c4;
+}
+
+.card-body>a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 28px;
+  border: 1px solid black;
+  border-radius: 0;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: transparent;
+  color: black;
+}
+
+.nav-item>a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.before-footer {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.product-hot>a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
+
+.product-hot>a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.product-hot>a:active {
+  color: black;
+}
+
+.product-hot>a>strong {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.logo-new {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.logo-new>a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-new>a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.art-story {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.art-story>a {
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
+
+.art-story>a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.item>a {
+  color: black;
+  text-decoration: none;
+}
+
+.item>a:hover {
+  position: relative;
+  color: yellow;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item>a {
+  font-family: 'Calibri', sans-serif !important;
+  font-size: 14px;
+  display: block;
+  line-height: 28px;
+}
+
+.inf-about-me {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 40px;
+  font-family: 'Calibri', sans-serif !important;
+  line-height: 28px;
+}
+
+.inf-about-me>h2 {
+  font-family: 'Calibri', sans-serif !important;
+  margin: 0;
+}
+
+.inf-about-me>h2>a {
+  color: black;
+  text-decoration: none;
+}
+
+.inf-about-me>h2>a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.footer-contact>ul {
+  list-style: none;
+}
+
+.footer-category>ul {
+  list-style: none;
+}
+
+.footer-temp-and-policies>ul {
+  list-style: none;
+}
+
+.footer-img>h4 {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.footer-img>p {
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.footer-contact>ul>li {
+  font-family: 'Calibri', sans-serif !important;
+  line-height: 24px;
+}
+
+.footer-img>a {
+  width: 150px;
+}
+
+.product-title
+{
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.product-title>h1
+{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.product-title>span>strong
+{
+  font-size: 16px;
+}
+
+.product-title>span
+{
+  font-size: 12px;
+  color: gray;
+}
+
+.product-price
+{
+  font-family: 'Calibri', sans-serif !important;
+  color: red;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.product-add-quantity>.product-quantity
+{
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.product-quantity>input
+{
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ececec;
+  font-weight: bold;
+}
+
+.product-quantity>button
+{
+  width: 35px;
+  height: 35px;
+  background: none;
+  border: 0;
+  background-color: #ececec;
+  color: #c0c0c0;
+  font-size: 20px;
+}
+
+.product-quantity>button:hover
+{
+  background-color: #D9D9D9;
+  color: rgb(126, 126, 126);
+}
+
+.product-cart>button
+{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 0;
+  background-color: yellow;
+  color: black;
+  font-family: 'Calibri', sans-serif !important;
+}
+
+.product-cart>button:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.product-tagged
+{
+  font-family: 'Calibri', sans-serif !important;
+  display: flex;
+}
+
+.product-tagged>.tagged
+{
+  list-style: none;
+}
+
+.product-tagged>.tagged>.tagged-item>a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.product-tagged>.tagged>.tagged-item>a:hover
+{
+  color: aqua;
+}
+
+.product-description-btn>button
+{
+  font-family: 'Calibri', sans-serif !important;
+  background-color: yellow;
+  border: 0;
+  border-radius: 0;
+  color: black;
+  font-size: 16px;
+
+}
+
+.product-description-btn>button:hover
+{
+  background-color: black;
+}

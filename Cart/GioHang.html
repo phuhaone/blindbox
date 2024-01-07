@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid" style="height: 60px;">
+            <div class="row main-header">
+                <div class="col-sm-2 logo-header">
+                    <a href="Index.html">
+                        <img src="Img/logo.png" alt="Logo" style="width:200px;">
+                    </a>
+                </div>
+                <div class="col-sm-8 nav-header">
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ALL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HÀNG SẮP VỀ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">BLIND BOX</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">POP MART</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">52 TOYS</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">OTHER ART TOYS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">FIGURING</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">BANPRESTO</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">BANDAI CANDY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">BEAST KINGDOM</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">GUNDAM</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SẢN PHẨM KHÁC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ART STORY</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-2 icon-header">
+                    <ul>
+                        <span class="glyphicon glyphicon-search"></span>
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div id="img-product" class="carousel slide" data-bs-ride="carousel" data-bs-interval="999999">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Img/Product-Cart/001.png" alt="" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/Product-Cart/002.png" alt="" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/Product-Cart/003.png" alt="" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/Product-Cart/004.png" alt="" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#img-product"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#img-product"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="product-title">
+                    <h1>Mô Hình Đồ Chơi POP MART Naruto Ninkai</h1>
+                    <span>
+                        <strong>SKU:</strong>
+                        6941848247599
+                    </span>
+                </div>
+                <div class="product-price mt-2">
+                    <span>
+                        280.000đ
+                    </span>
+                </div>
+                <div class="product-add-quantity mt-3">
+                    <div id="buy-amount" class="product-quantity">
+                        <button onclick="handleMinus()">-</button>
+                        <input value="1" name="amount" id="amount" type="text"></input>
+                        <button onclick="handlePlus()">+</button>
+                    </div>
+                    <div class="product-cart">
+                        <button class="btn btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                    </div>
+                </div>
+                <div class="product-tagged mt-3">
+                    <label> Tags: </label>
+                    <ul class="tagged">
+                        <li class="tagged-item">
+                            <a href="#">POP MART</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-description">
+                    <div class="product-description-title">
+                        <label> Mô tả </label>
+                    </div>
+                    <div class="product-description-btn mt-2">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="collapse"
+                            data-bs-target="#demo">Nhấn để xem mô tả</button>
+                        <div id="demo" class="collapse">
+                            <div class="product-description-content mt-4">
+                                <p>
+                                    <strong>
+                                        <span>Mô Hình Đồ Chơi POP MART Naruto Ninkai Taisen 6941848247599</span>
+                                    </strong>
+                                </p>
+                                <p>
+                                    <em>
+                                        <span>*Giao hàng ngẫu nhiên</span>
+                                    </em>
+                                </p>
+                                <div>
+                                    <p>✅ Nhận hàng nhanh chóng từ 1 - 3 ngày (không tính T7 - CN)</p>
+                                    <p>✅ Sản phẩm được Hobiverse phân phối chính hãng từ thương hiệu POP MART</p>
+                                    <p>✅ 3 ngày miễn phí trả hàng 100%</p>
+                                    <p>***Lưu ý: Sản phẩm được trả phải trong tình trạng nguyên vẹn như khi nhận hàng, chưa qua sử dụng</p>
+                                    <p>❶ Thông tin sản phẩm:</p>
+                                </div>
+                                <p>Naruto Ninkai Taisen - bộ sưu tập gồm các nhân vật trong bộ anime và manga nổi tiếng
+                                    Naturo, như Naruto, Sasuke, Sakura, Kakashi, v.v. Bộ sưu tập gồm có thiết kế lấy cảm
+                                    hứng từ nhiều cảnh và sự kiện khác nhau từ Thế chiến Shinobi lần thứ tư, một cuộc xung
+                                    đột lớn xảy ra trong bộ truyện Naturo.</p>
+                                <p>Thiết kế bộ sưu tập bao gồm 12 mẫu thường và 1 mẫu hiếm với tỉ lệ 1/144, nếu xuất
+                                    hiện
+                                    mẫu hiếm thì sẽ mất 1 mẫu thường</p>
+                                <p>- Kích thước sản phẩm: 7-9 cm</p>
+                                <p>- Chất liệu sản phẩm: PVC / ABS, trang phục bằng vải bông.</p>
+                                <p>- Đóng gói sản phẩm: Hộp tiêu chuẩn, bao bì hộp màu</p>
+                                <p>❷ Thông tin chi tiết về hộp sản phẩm</p>
+                                <p>- Mẫu hiếm (Secret Figure): Là những nhân vật hiếm, xác suất nhận được khoảng 1/144,
+                                    vỏ
+                                    hộp thường được làm mờ hoặc tô đen</p>
+                                <p>- Hộp đơn (Single Box): Một hộp bao bì kín (Blind Box), sản phẩm trong hộp không thể
+                                    được
+                                    xác định trước khi mở gói</p>
+                                <p>- Toàn bộ hộp (Whole Box): Khi khách hàng mua toàn bộ hộp, sẽ không có thiết kế trùng
+                                    lặp
+                                    và có thể xuất hiện nhân vật hiếm.</p>
+                                <p>Lưu ý: nếu khách hàng muốn mua nguyên bộ, vui lòng chọn số lượng là 12 và ghi chú mua
+                                    cả
+                                    bộ hoặc liên hệ hotline để được hỗ trợ</p>
+                                <p>❸ Dịch vụ chăm sóc khách hàng</p>
+                                <p>- Mọi thắc mắc sau bán hàng, vui lòng liên hệ với bộ phận chăm sóc khách hàng của
+                                    Hobiverse qua số hotline</p>
+                                <p>- Lưu ý: Do các phương pháp đo khác nhau, kết quả đo sẽ có sai số từ 1-3cm, thuộc
+                                    phạm vi
+                                    bình thường</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <!-- Javascript Quantity -->
+    <script>
+        let amountElement = document.getElementById('amount')
+        let amount = amountElement.value
+
+        let render = (amount) =>
+        {
+            amountElement.value = amount
+        }
+
+        let handlePlus = () => 
+        {
+            amount++;
+            render(amount);
+        }
+
+        let handleMinus = () =>
+        {
+            if(amount > 1)
+            amount--;
+            render(amount);
+        }
+
+        amountElement.addEventListener('input', () =>
+        {
+            amount = amountElement.value;
+            amount = parseInt(amount);
+            amount = (isNaN(amount)||amount == 0)?1:amount;
+            render(amount);
+        });
+    </script>
+</body>
+</html>
